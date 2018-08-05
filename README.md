@@ -3,6 +3,9 @@
 ### A cycle image classifier based on CNN architechture. Implemented using keras with tensorflow backend.
 ### Image Dataset used : http://www-old.emt.tugraz.at/~pinz/data/GRAZ_02/ ( Bike and None files).
 
+## DEMO 
+![Screenshot](demo.png)
+
 ### Network Architechture:
 
 <pre>
