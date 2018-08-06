@@ -45,9 +45,9 @@ class Net():
 
 model = Net.build()
 def train(model, train_x, train_y, test_x, test_y):
-    adam = optimizers.SGD(lr = 0.01)
+    sgd = optimizers.SGD(lr = 0.01)
     print(model.summary)
-    model.compile(optimizer = adam, loss = 'categorical_crossentropy',
+    model.compile(optimizer = sgd, loss = 'categorical_crossentropy',
                    metrics = ['accuracy'] )
     model.fit(train_x, train_y, batch_size = 12, 
                 validation_data = (test_x, test_y), epochs = 10)
