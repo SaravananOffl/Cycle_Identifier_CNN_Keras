@@ -1,9 +1,12 @@
 # Cycle_Identifier_CNN_Keras
 
-### A cycle image classifier based on CNN architechture. Implemented using keras with tensorflow backend.
+### A cycle image classifier based on CNN architecture. Implemented using keras with tensorflow backend.
 ### Image Dataset used : http://www-old.emt.tugraz.at/~pinz/data/GRAZ_02/ ( Bike and None files).
 
-### Network Architechture:
+## DEMO 
+![Screenshot](demo.png)
+
+### Network Architecture:
 
 <pre>
 _________________________________________________________________
